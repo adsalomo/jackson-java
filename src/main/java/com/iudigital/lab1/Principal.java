@@ -80,7 +80,9 @@ public class Principal {
         try {
             serializar();
         } catch (ParseException | JsonProcessingException ex) {
+            
             ex.printStackTrace();
+            
         }
         
         try {
