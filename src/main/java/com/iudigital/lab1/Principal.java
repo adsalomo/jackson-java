@@ -86,7 +86,9 @@ public class Principal {
         try {
             deserealizar();
         } catch (JsonProcessingException ex) {
+            
             ex.printStackTrace();
+            
         }
     }
     
