@@ -78,7 +78,9 @@ public class Principal {
     public static void main(String[] args) {
         
         try {
+            
             serializar();
+            
         } catch (ParseException | JsonProcessingException ex) {
             
             ex.printStackTrace();
