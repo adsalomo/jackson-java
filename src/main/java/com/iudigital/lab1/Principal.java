@@ -14,6 +14,7 @@ public class Principal {
     }
     
     private static void serializar() throws ParseException, JsonProcessingException {
+        
         Producto producto = new Producto();
         producto.setId(1L);
         producto.setNombre("Zapatos Negros");
