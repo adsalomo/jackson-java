@@ -10,6 +10,7 @@ package com.iudigital.lab1;
  * @author LenovoZ470
  */
 public class Categoria {
+    
     private int id;
     private String nombre;
 
